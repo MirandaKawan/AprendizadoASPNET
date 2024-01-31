@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "DeleteWarning";
+}
+
+<div class="text-center">
+    <h2>Tem certeza que deseja apagar o Usuario</h2>
+    <br>
+    <h4>Essa ação é final e não poderá ser revertida</h4>
+</div>
+
+<a class="btn btn-primary" asp-controller="Loginin" asp-action="Loginin">Voltar</a>
+<a class="btn btn-danger"asp-controller="Loginin" asp-action="Delete">Deletar</a>

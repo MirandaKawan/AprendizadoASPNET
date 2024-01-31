@@ -1,0 +1,31 @@
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="text-center">
+
+  <h1 class="display-5">Editar Usuário</h1>
+
+  
+</div>
+ 
+ <form>
+  <div class="mb-3">
+    <label for="nome" class="form-label">Nome</label>
+    <input type="text" class="form-control" placeholder="Digite Seu Primeiro Nome">
+  </div>
+
+    <div class="mb-3">
+    <label for="user" class="form-label">Usuario</label>
+    <input type="text" class="form-control" placeholder="Digite o Usuário desejado">
+  </div>
+
+    <div class="mb-3">
+    <label for="password" class="form-label">Senha</label>
+    <input type="text" class="form-control" placeholder="Digite Sua Senha">
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Editar</button>
+  <a class="btn btn-secondary" asp-controller="Loginin" asp-action="Loginin" role="button">Voltar</a>
+</form>
+
