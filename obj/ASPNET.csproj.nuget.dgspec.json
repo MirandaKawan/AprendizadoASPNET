@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\User\\Desktop\\VSCode\\ASPNET\\ASPNET.csproj": {}
+    "D:\\User\\Desktop\\Dev\\GitHub\\AprendizadoASPNET\\ASPNET.csproj": {}
   },
   "projects": {
-    "D:\\User\\Desktop\\VSCode\\ASPNET\\ASPNET.csproj": {
+    "D:\\User\\Desktop\\Dev\\GitHub\\AprendizadoASPNET\\ASPNET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\User\\Desktop\\VSCode\\ASPNET\\ASPNET.csproj",
+        "projectUniqueName": "D:\\User\\Desktop\\Dev\\GitHub\\AprendizadoASPNET\\ASPNET.csproj",
         "projectName": "ASPNET",
-        "projectPath": "D:\\User\\Desktop\\VSCode\\ASPNET\\ASPNET.csproj",
+        "projectPath": "D:\\User\\Desktop\\Dev\\GitHub\\AprendizadoASPNET\\ASPNET.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\User\\Desktop\\VSCode\\ASPNET\\obj\\",
+        "outputPath": "D:\\User\\Desktop\\Dev\\GitHub\\AprendizadoASPNET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
