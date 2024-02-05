@@ -6,14 +6,14 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-var app = builder.Build(); var connectionString = builder.Configuration.GetConnectionString("DataBase");
+//var connectionString = builder.Configuration.GetConnectionString("DataBase");
 
 builder.Services.AddEntityFrameworkSqlServer()
-    .AddDbContext<BancoContext>(o => o.UseSqlServer(connectionString));
-
-builder.Services.AddScoped<IContatoRepository, ContatoRepository>();
-
-
+    .AddDbContext<BancoContext>(options =>
+    {
+        options.UseSqlServer(builder.Configuration.GetConnectionString("DataBase"));
+    });
+var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

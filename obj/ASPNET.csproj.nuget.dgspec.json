@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\User\\Desktop\\Dev\\GitHub\\AprendizadoASPNET\\ASPNET.csproj": {}
+    "d:\\User\\Desktop\\Dev\\GitHub\\AprendizadoASPNET\\ASPNET.csproj": {}
   },
   "projects": {
-    "D:\\User\\Desktop\\Dev\\GitHub\\AprendizadoASPNET\\ASPNET.csproj": {
+    "d:\\User\\Desktop\\Dev\\GitHub\\AprendizadoASPNET\\ASPNET.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\User\\Desktop\\Dev\\GitHub\\AprendizadoASPNET\\ASPNET.csproj",
+        "projectUniqueName": "d:\\User\\Desktop\\Dev\\GitHub\\AprendizadoASPNET\\ASPNET.csproj",
         "projectName": "ASPNET",
-        "projectPath": "D:\\User\\Desktop\\Dev\\GitHub\\AprendizadoASPNET\\ASPNET.csproj",
+        "projectPath": "d:\\User\\Desktop\\Dev\\GitHub\\AprendizadoASPNET\\ASPNET.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\User\\Desktop\\Dev\\GitHub\\AprendizadoASPNET\\obj\\",
+        "outputPath": "d:\\User\\Desktop\\Dev\\GitHub\\AprendizadoASPNET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -63,6 +63,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.1, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.3.0, )"
             }
           },
           "imports": [
